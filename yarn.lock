@@ -2048,10 +2048,10 @@
     "classnames" "^2.2.5"
     "jsonp" "^0.2.1"
 
-"react-slick@^0.28.0":
-  "integrity" "sha512-/EZI9FOVFo9PseQKOw08K/lVT/T81rkVJkCDGCQbDGbg4irSMALaoesBMmAZie2YALuMlKHdzDsqioNtkmJKVg=="
-  "resolved" "https://registry.npmjs.org/react-slick/-/react-slick-0.28.0.tgz"
-  "version" "0.28.0"
+"react-slick@^0.28.1":
+  "integrity" "sha512-JwRQXoWGJRbUTE7eZI1rGIHaXX/4YuwX6gn7ulfvUZ4vFDVQAA25HcsHSYaUiRCduTr6rskyIuyPMpuG6bbluw=="
+  "resolved" "https://registry.npmjs.org/react-slick/-/react-slick-0.28.1.tgz"
+  "version" "0.28.1"
   dependencies:
     "classnames" "^2.2.5"
     "enquire.js" "^2.1.6"

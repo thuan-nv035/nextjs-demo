@@ -7,6 +7,10 @@ import { END } from "redux-saga";
 
 import { wrapper } from "../store";
 import { useRouter } from "next/dist/client/router";
+import Slide from "../components/Slide";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const MyApp = ({ Component, pageProps }) => {
   const dispatch = useDispatch();
@@ -34,9 +38,9 @@ const MyApp = ({ Component, pageProps }) => {
         />
       </Head>
       <div>
-        <h2>demo app</h2>
-        <button onClick={() => goArticleHandle()}>click me</button>
+        <Slide />
         <Component />
+        
       </div>
     </>
   );
