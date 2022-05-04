@@ -22,6 +22,7 @@ class MyDocument extends Document {
         </Head>
         <body>
           <Main />
+          <script src="https://cdn.tailwindcss.com"></script>
           <NextScript />
         </body>
       </Html>
